@@ -7,10 +7,10 @@
   NODE_VERSION = "20"
 
 # All API calls (and product images) go to the backend on Render.
-# Replace <RENDER_URL> with your Render host, e.g. shuka-api.onrender.com
+# Render backend host (replace if your service has a different name)
 [[redirects]]
   from = "/api/*"
-  to = "https://<RENDER_URL>/:splat"
+  to = "https://pa-shuka-amazon.onrender.com/:splat"
   status = 200
   force = true
 

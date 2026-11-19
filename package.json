@@ -1,0 +1,17 @@
+{
+  "name": "shuka",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Shuka — Amazon-style marketplace for Armenia. frontend/ (Netlify) + backend/ (Render).",
+  "scripts": {
+    "dev": "node scripts/dev.mjs",
+    "setup": "npm --prefix backend install && npm --prefix frontend install",
+    "start": "npm --prefix backend start",
+    "build": "npm --prefix frontend run build",
+    "reset": "npm --prefix backend run reset",
+    "test:breakit": "npm --prefix backend run test:breakit"
+  },
+  "engines": {
+    "node": ">=20"
+  }
+}

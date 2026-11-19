@@ -1,0 +1,43 @@
+:root {
+  --nav-bg: #131921;
+  --subnav-bg: #232f3e;
+  --footer-bg: #232f3e;
+  --footer-bottom: #131a22;
+  --page-bg: #eaeded;
+  --card-bg: #ffffff;
+  --soft-bg: #f7fafa;
+
+  --text: #0f1111;
+  --muted: #565959;
+  --border: #d5d9d9;
+  --border-strong: #888c8c;
+
+  --link: #007185;
+  --link-hover: #c7511f;
+  --accent: #c45500;
+
+  --btn-cart: #ffd814;
+  --btn-cart-hover: #f7ca00;
+  --btn-cart-border: #fcd200;
+  --btn-buy: #ffa41c;
+  --btn-buy-hover: #fa8900;
+  --btn-buy-border: #ff8f00;
+  --orange: #ff9900;
+  --search-btn: #febd69;
+  --search-btn-hover: #f3a847;
+
+  --star: #ffa41c;
+  --danger: #b12704;
+  --warn: #c45500;
+  --ok: #067d62;
+  --info: #2162a1;
+
+  --radius: 8px;
+  --radius-pill: 100px;
+  --shadow-card: 0 2px 5px rgba(15, 17, 17, 0.15);
+  --shadow-pop: 0 4px 18px rgba(0, 0, 0, 0.25);
+  --focus: 0 0 0 3px #c8f3fa, 0 0 0 1px #007185;
+
+  --font: 'Amazon Ember', Arial, 'Helvetica Neue', Helvetica, system-ui, sans-serif;
+  --container: 1500px;
+}

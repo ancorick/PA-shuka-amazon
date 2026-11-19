@@ -1,0 +1,19 @@
+# Render Blueprint (optional). Manual setup works too — see README.md.
+services:
+  - type: web
+    name: shuka-api
+    runtime: node
+    plan: free
+    rootDir: backend
+    buildCommand: npm install
+    startCommand: npm start
+    healthCheckPath: /health
+    envVars:
+      - key: NODE_VERSION
+        value: "20"
+      - key: NODE_ENV
+        value: production
+      - key: DATA_DIR
+        value: ./data
+      - key: JWT_SECRET
+        generateValue: true

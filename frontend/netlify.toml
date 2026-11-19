@@ -1,0 +1,21 @@
+# Netlify settings — set "Base directory" to `frontend` in the Netlify UI.
+[build]
+  command = "npm run build"
+  publish = "dist"
+
+[build.environment]
+  NODE_VERSION = "20"
+
+# All API calls (and product images) go to the backend on Render.
+# Replace <RENDER_URL> with your Render host, e.g. shuka-api.onrender.com
+[[redirects]]
+  from = "/api/*"
+  to = "https://<RENDER_URL>/:splat"
+  status = 200
+  force = true
+
+# Single-page app: every other path is served by index.html
+[[redirects]]
+  from = "/*"
+  to = "/index.html"
+  status = 200
